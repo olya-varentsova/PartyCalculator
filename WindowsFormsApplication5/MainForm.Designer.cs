@@ -77,28 +77,26 @@
             // labelAmountOfAdults
             // 
             this.labelAmountOfAdults.AutoSize = true;
-            this.labelAmountOfAdults.Location = new System.Drawing.Point(-4, 82);
+            this.labelAmountOfAdults.Location = new System.Drawing.Point(1, 60);
             this.labelAmountOfAdults.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelAmountOfAdults.Name = "labelAmountOfAdults";
             this.labelAmountOfAdults.Size = new System.Drawing.Size(232, 20);
             this.labelAmountOfAdults.TabIndex = 0;
             this.labelAmountOfAdults.Text = "Количество взрослый гостей";
-            this.labelAmountOfAdults.Click += new System.EventHandler(this.labelAmountOfAdults_Click);
             // 
             // labelAmountOfChildren
             // 
             this.labelAmountOfChildren.AutoSize = true;
-            this.labelAmountOfChildren.Location = new System.Drawing.Point(81, 108);
+            this.labelAmountOfChildren.Location = new System.Drawing.Point(82, 96);
             this.labelAmountOfChildren.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelAmountOfChildren.Name = "labelAmountOfChildren";
             this.labelAmountOfChildren.Size = new System.Drawing.Size(151, 20);
             this.labelAmountOfChildren.TabIndex = 1;
             this.labelAmountOfChildren.Text = "Количество детей";
-            this.labelAmountOfChildren.Click += new System.EventHandler(this.labelAmountOfChildren_Click);
             // 
             // textBoxAmountOfAdult
             // 
-            this.textBoxAmountOfAdult.Location = new System.Drawing.Point(242, 77);
+            this.textBoxAmountOfAdult.Location = new System.Drawing.Point(242, 60);
             this.textBoxAmountOfAdult.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxAmountOfAdult.Name = "textBoxAmountOfAdult";
             this.textBoxAmountOfAdult.Size = new System.Drawing.Size(148, 26);
@@ -107,7 +105,7 @@
             // 
             // textBoxAmountOfChildren
             // 
-            this.textBoxAmountOfChildren.Location = new System.Drawing.Point(240, 103);
+            this.textBoxAmountOfChildren.Location = new System.Drawing.Point(242, 96);
             this.textBoxAmountOfChildren.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxAmountOfChildren.Name = "textBoxAmountOfChildren";
             this.textBoxAmountOfChildren.Size = new System.Drawing.Size(148, 26);
@@ -117,101 +115,92 @@
             // labelEnableMusic
             // 
             this.labelEnableMusic.AutoSize = true;
-            this.labelEnableMusic.Location = new System.Drawing.Point(82, 137);
+            this.labelEnableMusic.Location = new System.Drawing.Point(82, 133);
             this.labelEnableMusic.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEnableMusic.Name = "labelEnableMusic";
             this.labelEnableMusic.Size = new System.Drawing.Size(151, 20);
             this.labelEnableMusic.TabIndex = 4;
             this.labelEnableMusic.Text = "Включить музыку?";
-            this.labelEnableMusic.Click += new System.EventHandler(this.labelEnableMusic_Click);
             // 
             // checkBoxOnOffMusic
             // 
             this.checkBoxOnOffMusic.AutoSize = true;
-            this.checkBoxOnOffMusic.Location = new System.Drawing.Point(238, 132);
+            this.checkBoxOnOffMusic.Location = new System.Drawing.Point(242, 132);
             this.checkBoxOnOffMusic.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxOnOffMusic.Name = "checkBoxOnOffMusic";
             this.checkBoxOnOffMusic.Size = new System.Drawing.Size(22, 21);
             this.checkBoxOnOffMusic.TabIndex = 5;
             this.checkBoxOnOffMusic.UseVisualStyleBackColor = true;
-            this.checkBoxOnOffMusic.CheckedChanged += new System.EventHandler(this.checkBoxOnOffMusic_Click);
             // 
             // labelEnableStar
             // 
             this.labelEnableStar.AutoSize = true;
-            this.labelEnableStar.Location = new System.Drawing.Point(82, 162);
+            this.labelEnableStar.Location = new System.Drawing.Point(146, 162);
             this.labelEnableStar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEnableStar.Name = "labelEnableStar";
             this.labelEnableStar.Size = new System.Drawing.Size(87, 20);
             this.labelEnableStar.TabIndex = 6;
             this.labelEnableStar.Text = "Ведущий?";
-            this.labelEnableStar.Click += new System.EventHandler(this.labelEnableStar_Click);
             // 
             // checkBoxStar
             // 
             this.checkBoxStar.AutoSize = true;
-            this.checkBoxStar.Location = new System.Drawing.Point(238, 158);
+            this.checkBoxStar.Location = new System.Drawing.Point(242, 161);
             this.checkBoxStar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxStar.Name = "checkBoxStar";
             this.checkBoxStar.Size = new System.Drawing.Size(22, 21);
             this.checkBoxStar.TabIndex = 7;
             this.checkBoxStar.UseVisualStyleBackColor = true;
-            this.checkBoxStar.CheckedChanged += new System.EventHandler(this.checkBoxStar_CheckedChanged);
             // 
             // checkBoxDJ
             // 
             this.checkBoxDJ.AutoSize = true;
-            this.checkBoxDJ.Location = new System.Drawing.Point(238, 185);
+            this.checkBoxDJ.Location = new System.Drawing.Point(242, 192);
             this.checkBoxDJ.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxDJ.Name = "checkBoxDJ";
             this.checkBoxDJ.Size = new System.Drawing.Size(22, 21);
             this.checkBoxDJ.TabIndex = 8;
             this.checkBoxDJ.UseVisualStyleBackColor = true;
-            this.checkBoxDJ.CheckedChanged += new System.EventHandler(this.checkBoxDJ_CheckedChanged);
             // 
             // labelEnableDJ
             // 
             this.labelEnableDJ.AutoSize = true;
-            this.labelEnableDJ.Location = new System.Drawing.Point(82, 186);
+            this.labelEnableDJ.Location = new System.Drawing.Point(112, 191);
             this.labelEnableDJ.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEnableDJ.Name = "labelEnableDJ";
             this.labelEnableDJ.Size = new System.Drawing.Size(121, 20);
             this.labelEnableDJ.TabIndex = 9;
             this.labelEnableDJ.Text = "Вызов диджея";
-            this.labelEnableDJ.Click += new System.EventHandler(this.labelEnableDJ_Click);
             // 
             // labelEnableCap
             // 
             this.labelEnableCap.AutoSize = true;
-            this.labelEnableCap.Location = new System.Drawing.Point(70, 212);
+            this.labelEnableCap.Location = new System.Drawing.Point(76, 221);
             this.labelEnableCap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEnableCap.Name = "labelEnableCap";
             this.labelEnableCap.Size = new System.Drawing.Size(157, 20);
             this.labelEnableCap.TabIndex = 11;
             this.labelEnableCap.Text = "Колпаки на гостях?";
-            this.labelEnableCap.Click += new System.EventHandler(this.labelEnableCap_Click);
             // 
             // checkBoxWithCap
             // 
             this.checkBoxWithCap.AutoSize = true;
-            this.checkBoxWithCap.Location = new System.Drawing.Point(238, 212);
+            this.checkBoxWithCap.Location = new System.Drawing.Point(242, 221);
             this.checkBoxWithCap.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxWithCap.Name = "checkBoxWithCap";
             this.checkBoxWithCap.Size = new System.Drawing.Size(22, 21);
             this.checkBoxWithCap.TabIndex = 10;
             this.checkBoxWithCap.UseVisualStyleBackColor = true;
-            this.checkBoxWithCap.CheckedChanged += new System.EventHandler(this.checkBoxWithCap_CheckedChanged);
             // 
             // labelTypesOfFood
             // 
             this.labelTypesOfFood.AutoSize = true;
-            this.labelTypesOfFood.Location = new System.Drawing.Point(82, 338);
+            this.labelTypesOfFood.Location = new System.Drawing.Point(130, 337);
             this.labelTypesOfFood.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTypesOfFood.Name = "labelTypesOfFood";
             this.labelTypesOfFood.Size = new System.Drawing.Size(103, 20);
             this.labelTypesOfFood.TabIndex = 12;
             this.labelTypesOfFood.Text = "Тип питания";
-            this.labelTypesOfFood.Click += new System.EventHandler(this.labelTypesOfFood_Click);
             // 
             // groupBoxTypesOfFoods
             // 
@@ -220,14 +209,13 @@
             this.groupBoxTypesOfFoods.Controls.Add(this.radioButtonSnacks);
             this.groupBoxTypesOfFoods.Controls.Add(this.groupBox2);
             this.groupBoxTypesOfFoods.Controls.Add(this.label8);
-            this.groupBoxTypesOfFoods.Location = new System.Drawing.Point(228, 269);
+            this.groupBoxTypesOfFoods.Location = new System.Drawing.Point(242, 283);
             this.groupBoxTypesOfFoods.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBoxTypesOfFoods.Name = "groupBoxTypesOfFoods";
             this.groupBoxTypesOfFoods.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBoxTypesOfFoods.Size = new System.Drawing.Size(300, 154);
             this.groupBoxTypesOfFoods.TabIndex = 13;
             this.groupBoxTypesOfFoods.TabStop = false;
-            this.groupBoxTypesOfFoods.Enter += new System.EventHandler(this.groupBoxTypesOfFoods_Enter);
             // 
             // radioButtonBuffet
             // 
@@ -239,7 +227,6 @@
             this.radioButtonBuffet.TabStop = true;
             this.radioButtonBuffet.Text = "Шведский стол";
             this.radioButtonBuffet.UseVisualStyleBackColor = true;
-            this.radioButtonBuffet.CheckedChanged += new System.EventHandler(this.radioButtonBuffet_CheckedChanged);
             // 
             // radioButtonBanquet
             // 
@@ -251,7 +238,6 @@
             this.radioButtonBanquet.TabStop = true;
             this.radioButtonBanquet.Text = "Банкет";
             this.radioButtonBanquet.UseVisualStyleBackColor = true;
-            this.radioButtonBanquet.CheckedChanged += new System.EventHandler(this.radioButtonBanquet_CheckedChanged);
             // 
             // radioButtonSnacks
             // 
@@ -263,7 +249,6 @@
             this.radioButtonSnacks.TabStop = true;
             this.radioButtonSnacks.Text = "Закуски";
             this.radioButtonSnacks.UseVisualStyleBackColor = true;
-            this.radioButtonSnacks.CheckedChanged += new System.EventHandler(this.radioButtonSnacks_CheckedChanged);
             // 
             // groupBox2
             // 
@@ -325,13 +310,12 @@
             // labelTimeOfParty
             // 
             this.labelTimeOfParty.AutoSize = true;
-            this.labelTimeOfParty.Location = new System.Drawing.Point(62, 491);
+            this.labelTimeOfParty.Location = new System.Drawing.Point(91, 510);
             this.labelTimeOfParty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTimeOfParty.Name = "labelTimeOfParty";
             this.labelTimeOfParty.Size = new System.Drawing.Size(142, 20);
             this.labelTimeOfParty.TabIndex = 14;
             this.labelTimeOfParty.Text = "Время вечеринки";
-            this.labelTimeOfParty.Click += new System.EventHandler(this.labelTimeOfParty_Click);
             // 
             // groupBoxTimeOfParty
             // 
@@ -340,14 +324,13 @@
             this.groupBoxTimeOfParty.Controls.Add(this.checkBoxPartyTimeIsEvening);
             this.groupBoxTimeOfParty.Controls.Add(this.checkBoxPartyTimeIsMidday);
             this.groupBoxTimeOfParty.Controls.Add(this.checkBoxPartyTimeIsMorning);
-            this.groupBoxTimeOfParty.Location = new System.Drawing.Point(228, 425);
+            this.groupBoxTimeOfParty.Location = new System.Drawing.Point(242, 442);
             this.groupBoxTimeOfParty.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBoxTimeOfParty.Name = "groupBoxTimeOfParty";
             this.groupBoxTimeOfParty.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBoxTimeOfParty.Size = new System.Drawing.Size(300, 154);
             this.groupBoxTimeOfParty.TabIndex = 16;
             this.groupBoxTimeOfParty.TabStop = false;
-            this.groupBoxTimeOfParty.Enter += new System.EventHandler(this.groupBoxTimeOfParty_Enter);
             // 
             // groupBox4
             // 
@@ -416,7 +399,6 @@
             this.checkBoxPartyTimeIsEvening.TabIndex = 2;
             this.checkBoxPartyTimeIsEvening.Text = "Вечер";
             this.checkBoxPartyTimeIsEvening.UseVisualStyleBackColor = true;
-            this.checkBoxPartyTimeIsEvening.CheckedChanged += new System.EventHandler(this.checkBoxPartyTimeIsEvening_CheckedChanged);
             // 
             // checkBoxPartyTimeIsMidday
             // 
@@ -428,7 +410,6 @@
             this.checkBoxPartyTimeIsMidday.TabIndex = 1;
             this.checkBoxPartyTimeIsMidday.Text = "День";
             this.checkBoxPartyTimeIsMidday.UseVisualStyleBackColor = true;
-            this.checkBoxPartyTimeIsMidday.CheckedChanged += new System.EventHandler(this.checkBoxPartyTimeIsMidday_CheckedChanged);
             // 
             // checkBoxPartyTimeIsMorning
             // 
@@ -440,7 +421,6 @@
             this.checkBoxPartyTimeIsMorning.TabIndex = 0;
             this.checkBoxPartyTimeIsMorning.Text = "Утро";
             this.checkBoxPartyTimeIsMorning.UseVisualStyleBackColor = true;
-            this.checkBoxPartyTimeIsMorning.CheckedChanged += new System.EventHandler(this.checkBoxPartyTimeIsMorning_CheckedChanged);
             // 
             // labelPartyMaker
             // 
@@ -451,33 +431,30 @@
             this.labelPartyMaker.Size = new System.Drawing.Size(192, 20);
             this.labelPartyMaker.TabIndex = 17;
             this.labelPartyMaker.Text = "Организатор вечеринок";
-            this.labelPartyMaker.Click += new System.EventHandler(this.labelPartyMaker_Click);
             // 
             // labelEnableGifts
             // 
             this.labelEnableGifts.AutoSize = true;
-            this.labelEnableGifts.Location = new System.Drawing.Point(69, 238);
+            this.labelEnableGifts.Location = new System.Drawing.Point(91, 251);
             this.labelEnableGifts.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEnableGifts.Name = "labelEnableGifts";
             this.labelEnableGifts.Size = new System.Drawing.Size(142, 20);
             this.labelEnableGifts.TabIndex = 19;
             this.labelEnableGifts.Text = "Подарки гостям?";
-            this.labelEnableGifts.Click += new System.EventHandler(this.labelEnableGifts_Click);
             // 
             // checkBoxWithGifts
             // 
             this.checkBoxWithGifts.AutoSize = true;
-            this.checkBoxWithGifts.Location = new System.Drawing.Point(237, 238);
+            this.checkBoxWithGifts.Location = new System.Drawing.Point(242, 252);
             this.checkBoxWithGifts.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxWithGifts.Name = "checkBoxWithGifts";
             this.checkBoxWithGifts.Size = new System.Drawing.Size(22, 21);
             this.checkBoxWithGifts.TabIndex = 18;
             this.checkBoxWithGifts.UseVisualStyleBackColor = true;
-            this.checkBoxWithGifts.CheckedChanged += new System.EventHandler(this.checkBoxWithGifts_CheckedChanged);
             // 
             // buttonCalculate
             // 
-            this.buttonCalculate.Location = new System.Drawing.Point(66, 623);
+            this.buttonCalculate.Location = new System.Drawing.Point(242, 643);
             this.buttonCalculate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonCalculate.Name = "buttonCalculate";
             this.buttonCalculate.Size = new System.Drawing.Size(112, 35);
@@ -489,18 +466,17 @@
             // labelSammury
             // 
             this.labelSammury.AutoSize = true;
-            this.labelSammury.Location = new System.Drawing.Point(230, 623);
+            this.labelSammury.Location = new System.Drawing.Point(244, 706);
             this.labelSammury.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSammury.Name = "labelSammury";
             this.labelSammury.Size = new System.Drawing.Size(54, 20);
             this.labelSammury.TabIndex = 21;
             this.labelSammury.Text = "Итого";
-            this.labelSammury.Click += new System.EventHandler(this.labelSammury_Click);
             // 
             // checkBoxHaveLimitMoney
             // 
             this.checkBoxHaveLimitMoney.AutoSize = true;
-            this.checkBoxHaveLimitMoney.Location = new System.Drawing.Point(228, 589);
+            this.checkBoxHaveLimitMoney.Location = new System.Drawing.Point(242, 609);
             this.checkBoxHaveLimitMoney.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxHaveLimitMoney.Name = "checkBoxHaveLimitMoney";
             this.checkBoxHaveLimitMoney.Size = new System.Drawing.Size(254, 24);
@@ -511,7 +487,7 @@
             // 
             // textBoxBudjet
             // 
-            this.textBoxBudjet.Location = new System.Drawing.Point(490, 587);
+            this.textBoxBudjet.Location = new System.Drawing.Point(512, 609);
             this.textBoxBudjet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxBudjet.Name = "textBoxBudjet";
             this.textBoxBudjet.Size = new System.Drawing.Size(148, 26);
@@ -528,7 +504,6 @@
             this.label14.Size = new System.Drawing.Size(0, 20);
             this.label14.TabIndex = 24;
             this.label14.Visible = false;
-            this.label14.Click += new System.EventHandler(this.labelTooExpensive_Click);
             // 
             // MainForm
             // 
@@ -562,7 +537,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainForm";
             this.Text = "Расчет стоимости вечеринки";
-            this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBoxTypesOfFoods.ResumeLayout(false);
             this.groupBoxTypesOfFoods.PerformLayout();
             this.groupBox2.ResumeLayout(false);
